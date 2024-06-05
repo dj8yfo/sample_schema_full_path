@@ -1,7 +1,7 @@
 use borsh::BorshSchema;
 
 #[derive(BorshSchema)]
-enum A {
+pub enum A {
     Bacon(Vec<i64>),
     Eggs,
 }
