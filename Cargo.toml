@@ -1,0 +1,7 @@
+[package]
+name = "schema_full_path_crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = { version = "1.5.1", features = ["unstable__schema"], git = "https://github.com/near/borsh-rs.git", branch = "prepend_module"}
